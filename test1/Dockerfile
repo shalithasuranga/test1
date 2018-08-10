@@ -16,4 +16,4 @@ COPY --from=build-env /app/out .
 RUN mkdir LocalStorage
 ENTRYPOINT ["dotnet", "test1.dll"]
 
-EXPOSE 80
+EXPOSE 1234
